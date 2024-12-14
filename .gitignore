@@ -1,0 +1,20 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore the uploads directory
+wp-content/uploads/
+
+# Ignore plugin and theme directories if not necessary
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore log files
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
